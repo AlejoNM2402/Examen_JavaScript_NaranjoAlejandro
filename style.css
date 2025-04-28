@@ -1,0 +1,65 @@
+*{
+    background-color: aliceblue;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: aqua; */
+    & input{
+        height: 30px;
+        width: 70%;
+        border-radius: 8px;
+        align-self: center;
+        cursor: text;
+    }
+    & select {
+        height: 30px;
+        width: 70%;
+        border-radius: 8px;
+        align-self: center;
+        cursor: pointer;
+    }
+    & h3{
+        align-self: center;
+
+    }
+    
+}
+
+.busqueda{
+    justify-self: end;
+    height: 120px;
+    & input{
+        height: 35px;
+        border-radius: 10px;
+    }
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* background-color: rgb(0, 0, 0); */
+    align-items: center;
+
+}
+
+.boton button{
+    width: 10%;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+@media (orientation : portrait){
+    .boton button{
+        width: 10%;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
