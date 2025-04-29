@@ -1,5 +1,9 @@
+@import url(cariable.css);
+
 *{
-    background-color: aliceblue;
+    background-color: rgb(196, 179, 240);
+    font-family: 'sofia';
+    
 }
 
 .content{
@@ -13,6 +17,7 @@
         border-radius: 8px;
         align-self: center;
         cursor: text;
+        border: 2px solid black;
     }
     & select {
         height: 30px;
@@ -48,10 +53,12 @@
 
 .boton button{
     width: 10%;
-    height: 30px;
+    height: 40px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
 }
 
 @media (orientation : portrait){
@@ -63,3 +70,19 @@
         cursor: pointer;
     }
 }
+
+.receta-box{
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 4%;
+    font-family: 'sofia';
+    background-color:rgb(219, 189, 248) ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+
+.receta-box:hover{
+    transform:translateY(-10px)
+}
+
